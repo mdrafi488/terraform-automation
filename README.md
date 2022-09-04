@@ -1,2 +1,2 @@
-# terraform-sutomation
+# terraform-automation
 security-group-automation
