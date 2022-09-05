@@ -1,7 +1,7 @@
 resource "aws_security_group" "apache" {
   name        = "apache-sg"
   description = "Allow end user with http"
-  vpc_id      = vpc-049f215e85a9ff2c2
+  vpc_id      = "vpc-049f215e85a9ff2c2"
 
   ingress {
     description      = "connecting end user on Http"
